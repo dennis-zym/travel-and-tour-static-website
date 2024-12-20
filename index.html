@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&D Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.js"></script>
+    <script src="./js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="px-5">
+        <div class="row py-2">
+            <div class="col">
+                <nav class="justify-content-end navbar navbar-expand navbar-dark fixed-top text-capitalize backgroundOrange">
+                    <a class="navbar-brand" href="index.html"><img src="./img/dt-logo.png" alt="index" width="180px" class=""></a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html"> <strong>home</strong></a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="dt_tour_page_zym.html"><strong> tours</strong></a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" href="dt_localFood_page.html"><strong>local food & restaurants</strong></a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" href="dt_featuredGuide_page_zym.html"><strong>featured guides</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><strong>more</strong></a>
+                            <div class="dropdown-menu dropdown-menu-right" >
+                                <div class="dropdown-header">account</div>
+                                <a href="./dt_sign_in_page_zym.html" class="dropdown-item">sign up</a>
+                                <a href="./dt_login_page_zym.html" class="dropdown-item">login</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-header">help</div>
+                                <a href="./dt_contactUs_page.zym.html" class="dropdown-item">contact us</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="./dt_aboutUs_page_zym.html" class="dropdown-item">about us</a>
+                            </div>
+                        </li>
+                    </ul>
+              </nav>
+            </div>
+        </div>
+    </section>
+    <header id="header carousel">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col px-0">
+                    <div id="example" class="carousel slide" data-ride="carousel">
+                        <!-- indicator -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#example" data-slide-to="0"></li>
+                            <li data-target="#example" data-slide-to="1"></li>
+                            <li data-target="#example" data-slide-to="2"></li>
+                            <li data-target="#example" data-slide-to="3"></li>
+                        </ul>
+                        <!-- end of indicator -->
+                        <!-- images -->
+                        <div class="carousel-inner fontWhite">
+                            <div class="carousel-item active">
+                                <img src="./img/wallpaperflare.com_wallpaper.jpg" class="image">
+                                <h1 style="font-size:5vw;" class="centered1 text-uppercase font-anton xxlFontSize d-none d-sm-block">d&t<br>Myanmar travels</h1>
+                                <!-------- SearchForm-------->
+                                <form action="#">
+                                    <div class="input-group centered3 justify-content-center">
+                                        <input type="text" id="group-username1" size="35"  placeholder="Destinations">
+                                        <input type="text" id="group-username1" size="25" placeholder="Date">
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn backgroundOrange">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-------- End Of SearchForm-------->    
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/myanmar.jpg" alt="project" class="image">
+                                <h1 style="font-size:5vw;" class="centered0 text-uppercase font-anton xxlFontSize ">discover locations<br>throughout history</h1>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/inlay2.jpg" alt="project" class="image">
+                                <h1 style="font-size:5vw;" class="centered0 text-uppercase font-anton xxlFontSize ">fun-fill<br>local experiences</h1>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/yangon_tour.jpg" alt="project" class="image">
+                                <h1 style="font-size:5vw;" class="centered0 text-uppercase font-anton xxlFontSize ">Experience you<br> never had before</h1>
+                            </div>
+                        </div>
+                        <!-- end of images -->
+                        <!-- control -->
+                        <a href="#example" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#example" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        <!-- end of control -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="destinations">
+        <div class="container my-5 py-3">
+            <div class="rol">
+                <div class="col text-center pt-5">
+                    <h1><b>Your Gateway to the Experience of a Life-time</b></h1>
+                    <p class="d-none d-sm-block pt-3 pb-4"><b>Create your experience of Myanmar to be a memory of a life time! Myanmar offers a blending of unique culture, amazing scenery, fresh local foods and most importantly welcoming people. Myanmar is not yet crowded with tourist; it remains truly an untamed gem, filled with wonders from the fabulous temple plains to wonderful beaches of archipelago with pristine sand. It can truly offer you a lifetime experience!</b></p>
+                </div>
+            </div>
+            <div class="row mt-5 mx-5">
+                <div class="row my-3">  
+                    <div class="col-sm-6 hover2">
+                        <a href="#">
+                            <img src="./img/bagan_2.jpg" alt="" width="100%" height="99%" class="imageHover">
+                        </a>
+                        <div class="centered2">
+                            <a href="dt_bagan_tourPage_zym.html" class="btn btn-outline-dark bg-lg"><strong>Bagan</strong></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 hover2">    
+                        <a href="#">
+                            <img src="./img/inlelake.jpg" alt="" width="100%" height="99%" class="imageHover">
+                        </a>
+                        <div class="centered2">
+                            <a href="dt_inle_tourPage_zym.html" class="btn btn-outline-dark bg-lg"><strong>Inle</strong></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="col-sm-4 hover2">
+                        <a href="#">
+                            <img src="./img/nagapali3.jpg" alt="" width="100%" height="99%" class="imageHover">
+                        </a>
+                        <div class="centered2">
+                            <a href="dt_ngapali_tourPage_zym.html" class="btn btn-outline-dark bg-lg"><strong>Ngapali</strong></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">    
+                        <div class="row">
+                            <div class="col-sm-6 hover2">
+                                <a href="#">
+                                    <img src="./img/yangon.JPG" alt="" width="100%" height="99%" class="imageHover">
+                                </a>
+                                <div class="centered2">
+                                    <a href="dt_yangon_tourPage_zym.html" class="btn btn-outline-dark bg-lg"><strong>Yangon</strong></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hover2">
+                                <a href="#">
+                                    <img src="./img/Mandalay_Palace_Wall.jpg" alt="" width="100%" height="99%" class="imageHover">
+                                </a>
+                                <div class="centered2">
+                                    <a href="dt_mandalay_tourPage_zym.html" class="btn btn-outline-dark bg-lg"><strong>Mandalay</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12 hover2">
+                                <a href="#">
+                                    <img src="./img/Putao-myanmar.jpg" alt="" class="imageHover" width="100%" height="99%">
+                                </a>
+                                <div class="centered2">
+                                    <a href="dt_putao_tourPage_zym.html" class="btn btn-outline-dark bg-lg"><strong>Putao</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row pt-5">
+                <div class="col pb-5">
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-light text-uppercase backgroundOrange rcorners2"><b>view all destinations</b></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <section id="responsibleTourism">
+        <div class="container-fluid tourismPicture mt-5 pt-5 height-100 d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col">
+                    <div class="box4 lefted shadow1 text-center">
+                        <h3><b>Responsible Tourism</b></h3>
+                        <p>We not only take responsibility seriously about the impact of our carefully crafted programs but we do consider for locals in the area we visit for everlasting positive impact. We strongly believe that small-scale, responsible tourism can create more benefits than harm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid py-5">
+            <div class="row d-none d-lg-block py-5">
+                <div class="col px-0">
+                    <img src="img/airplane-pic2.2.jpg" width="100%">
+                    <div class="lefted mFontSize">
+                        <h1 class="fontBlack">Find the right Flight</h2>
+                        <ul style="list-style-type: circle;">
+                            <li class="fontBlack ">Book with confidence with Price Forecast</li>
+                            <li class="fontBlack ">Set a <strong class="fontOrange">Price Alert</strong> and never miss a deal</li>
+                        </ul>
+                        <a href="#" class="btn text-light borderWhite btn-outline-secondary backgroundOrange"><strong>Search Now</strong></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 mt-5">
+                <div class="col-lg-12 text-center mt-4">
+                    <i class="fas fa-history fa-3x"></i>
+                    <h2 class="mt-3">Free cancellation</h2>
+                    <p>You'll receive a full refund if you cancel at least 24 hours in advance of most experiences.</p>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5 mt-5 darkBlueBg">
+        <div class="container-fluid pl-5">
+            <div class="row text-ligh xxxsFontSize">
+                <div class="col-9 col-lg-3 fontLightGrey">
+                    <div class="row">
+                        <div class="col">
+                            <h5><strong>Subscribe to our newsletter</strong></h5>
+                            <p><strong>And receive our latest news.</strong></p>
+                            <form action="#">
+                                <div class="row mt-4" >
+                                    <input type="text" id="email" name="email" placeholder="Enter your e-mail address" style="width: 230px;">
+                                </div>
+                                <div class="row">
+                                    <button type="submit" class="btn backgroundOrange mt-2 text-light">Sign up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 mt-5 fontLightGrey">
+                            <h6><strong>JOIN our Community</strong></h6>
+                            <a href="#" class="btn"><i class="fab fa-facebook-f fa-lg fontLightGrey mx-0"></i></a>
+                            <a href="#" class="btn"><i class="fab fa-twitter fa-lg fontLightGrey mx-0"></i></a>
+                            <a href="#" class="btn"><i class="fab fa-instagram fa-lg fontLightGrey mx-0"></i></a>
+                            <p><strong>txt +959 259-462-008</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerLine"></div>
+                <div class="col-sm-6 col-lg-8">
+                    <div class="row fontWhite justify-content-center">
+                        <div class="col-6 col-lg-3">
+                            <h5 class=""><strong>Company</strong></h5>
+                            <a href="./dt_aboutUs_page_zym.html"><p class="xHeight text-light mt-3">About Us</p></a>
+                            <a href="./dt_contactUs_page.zym.html"><p class="xHeight text-light">Contact Us</p></a>
+                            <a href="#"><p class="xHeight text-light">How to Book</p></a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h5><strong>Other</strong></h5>
+                            <a href="dt_featuredGuide_page_zym.html"><p class="xHeight text-light mt-3">Featured Guide</p></a>
+                            <a href="#"><p class="xHeight text-light">Privacy Policy</p></a>
+                            <a href="#"><p class="xHeight text-light">Terms and Condition</p></a>
+                            
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5><strong>Contact</strong></h5>
+                            <a href="#"><p class="xHeight text-light mt-3">Room D-104 / A, First Floor,</p></a>
+                            <a href="#"><p class="xHeight text-light">Shwe Phyu Plaza, Between</p></a>
+                            <a href="#"><p class="xHeight text-light">77th & 78th street, Between</p></a>
+                            <a href="#"><p class="xHeight text-light">32nd & 33rd Street</p></a>
+                            <a href="#"><p class="xHeight text-light">@dt-myanmartravel.com</p></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row fontLightGrey">
+                <div class="col-12 text-center xxxsFontSize">
+                    <p>Copyright @ 2008-2020, dt Myanmar Travels </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
